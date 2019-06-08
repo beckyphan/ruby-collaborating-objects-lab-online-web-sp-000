@@ -28,6 +28,7 @@ class Song
       a.add_song(song)
       a.save
     end
+    
     song                                                        # return the song instance
   end
   
