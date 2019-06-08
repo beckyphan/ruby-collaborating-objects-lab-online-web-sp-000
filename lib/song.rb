@@ -24,6 +24,8 @@ class Song
     song.artist.add_song(song)                                  # artist object has song added to its songs list
     song.artist.save                                            # save the artist to @@all artists
     song                                                        # return the song instance
+    
+    song.artist = 
   end
   
 end
