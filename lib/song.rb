@@ -27,9 +27,9 @@ class Song
     
     song.artist = 
     
-    user = User.new.tap do |u|
-    u.username = "foobar"
-    u.save!
+    # user = User.new.tap do |u|
+    # u.username = "foobar"
+    # u.save!
 end
   end
   
