@@ -25,15 +25,16 @@ class Song
     song.artist.save                                            # save the artist to @@all artists
     song                                                        # return the song instance
     
-    song.artist = 
+    song.artist = Artist.find_or_create_by_name(artist_name).tap do |a|
+      
     
     # user = User.new.tap do |u|
     # u.username = "foobar"
     # u.save!
     
-    user = User.new
-    user.username = "foobar"
-    user.save!
+    # user = User.new
+    # user.username = "foobar"
+    # user.save!
 end
   end
   
