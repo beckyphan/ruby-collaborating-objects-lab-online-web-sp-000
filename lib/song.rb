@@ -26,6 +26,11 @@ class Song
     song                                                        # return the song instance
     
     song.artist = 
+    
+    user = User.new.tap do |u|
+    u.username = "foobar"
+    u.save!
+end
   end
   
 end
