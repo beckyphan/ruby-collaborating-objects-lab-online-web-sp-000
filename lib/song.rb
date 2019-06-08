@@ -30,7 +30,6 @@ class Song
     end
     
     song                                                        # return the song instance
-end
   end
   
 end
