@@ -30,6 +30,10 @@ class Song
     # user = User.new.tap do |u|
     # u.username = "foobar"
     # u.save!
+    
+    user = User.new
+    user.username = "foobar"
+    user.save!
 end
   end
   
